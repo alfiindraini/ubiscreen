@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>UbiScreen</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top" class="sidebar-toggled">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+            <!-- Sidebar -->
+            <ul class="navbar-nav sidebar sidebar-dark border-right " id="accordionSidebar">
+
+                <!-- Sidebar - Brand -->
+                <li>
+                    <!-- <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                        <div class="sidebar-brand-icon rotate-n-15">
+                            <img src="imags/logo_ubiscreen.png" alt="" width="30" height="24">
+                        </div>
+                        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                    </a> -->
+                    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                        <div class="sidebar-brand-icon pr-1">
+                            <img src="images/logo_ubiscreen.png" alt="" width="30" height="24">
+                        </div>
+                        <div class="sidebar-brand-text text-dark mx-3">UbiScreen</div>
+                    </a>
+
+                </li>
+                <!-- Sidebar - Brand -->
+
+                <li class="nav-item ">
+                    <a class="nav-link btn-outline-orange " href="overview.html">
+                        <i class="bi bi-grid"></i>
+                        Overview
+                    </a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link btn-outline-orange " href="index.html">
+                        <i class="bi bi-display"></i>
+                        Screen
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-orange " href="media.html">
+                        <i class="bi bi-collection-play"></i>
+                        Media
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-orange" href="playlist.html">
+                        <i class="bi bi-list-ul"></i>
+                        Playlist
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-orange " href="schedule.html">
+                        <i class="bi bi-calendar-check"></i>
+                        Schedule
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-orange " href="statistic.html">
+                        <i class="bi bi-bar-chart-line"></i>
+                        Statistic
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link btn-outline-orange " href="payout.html">
+                        <i class="bi bi-credit-card"></i>
+                        Payout
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-orange " href="settings.html">
+                        <i class="bi bi-gear"></i>
+                        Settings
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End of Sidebar -->
+
+        <div id="content-wrapper" class="d-flex flex-column bg-white">
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light border-bottom topbar mb-4 static-top">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group m-4">
+                            <div class="input-group-append ">
+                                <span class="input-group-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                      </svg>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control border small"
+                                placeholder="Search screen, media, playlist or schedule" aria-label="Search"
+                                aria-describedby="basic-addon2">
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-bell" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    style="color: orange;" class="bi bi-person-circle " viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                    <path fill-rule="evenodd"
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                </svg>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 medium p-2">John Doe</span>
+                            </a>
+                            <!-- Dropdown - User Information -->
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->
+                <h1 class="h3 mb-0 text-gray-800">Halaman Payout</h1>
+              
+                <!-- Navigation Page -->
+                <!-- <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Videotron</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">UB0012341-Videotron 001</li>
+                    </ol>
+                </nav> -->
+                <!-- End Navigation Page -->
+
+
+                <!-- Begin Page Content -->
+                <!-- <div>
+                    <nav class="nav nav-masthead float-md-end border-bottom">
+                        <a class="nav-link active" aria-current="page" href="#">Detail</a>
+                        <a class="nav-link " href="#">Schedule</a>
+                    </nav>
+                </div>
+
+                <div class="container-fluid ">
+                    
+                    <div class="row ">
+                        <div class="col-md-2 py-3 d-flex justify-content-start">
+                            <i class="bi bi-circle-fill pr-2" style="color: rgb(38, 235, 114);"></i>
+                            <h6 class="title-item">Turned on</h6>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <figure class="figure">
+                                        <img src="images/billboard3.jpg" id="image" class="img-fluid rounded" alt="...">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-3 p-1">
+                                    <button id="btn1" class="btn  p-0 border-0 " type="button">
+                                        <img src="images/billboard3.jpg" class="img-fluid rounded" alt="...">
+                                    </button>
+                                </div>
+                                <div class="col-md-3 p-1">
+                                    <button id="btn2" class="btn p-0 border-0" type="button">
+                                        <img src="images/bill2.jpg" class="img-fluid rounded" alt="...">
+                                    </button>
+                                </div>
+                                <div class="col-md-3 p-1">
+                                    <button id="btn3" class="btn p-0 border-0">
+                                        <img src="images/bill1.jpg" class="img-fluid rounded" alt="...">
+                                    </button>
+                                </div>
+                                <div class="col-md-3 p-1">
+                                    <button id="btn4" class="btn p-0 border-0">
+                                        <img src="images/bill0.jpg" class="img-fluid rounded" alt="...">
+                                    </button>
+                                </div>
+                                <script type="text/javascript">
+                                    document.getElementById('btn1').onclick = function change_image() {
+                                        document.getElementById("image").src = "images/billboard3.jpg";
+                                    }
+                                    document.getElementById('btn2').onclick = function change_image() {
+                                        document.getElementById("image").src = "images/bill2.jpg";
+                                    }
+                                    document.getElementById('btn3').onclick = function change_image() {
+                                        document.getElementById("image").src = "images/bill1.jpg";
+                                    }
+                                    document.getElementById('btn4').onclick = function change_image() {
+                                        document.getElementById("image").src = "images/bill0.jpg";
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row p-2">
+                                <div class="col-md-8 ">
+                                    <h6 class="title-item mb-0">Videotron 001</h6>
+                                    <p class="mb-0 opacity-75 text-uppercase">id: ub0012341</p>
+                                </div>
+                                <div class="col-md-3 d-flex justify-content-end ">
+                                    <button class="btn btn-outline-orange m-0 p-2" type=" button">
+                                        <i class="bi bi-pencil-square pr-2"></i>Edit
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row p-2 ml-1">
+                                <div class="col-md-8 d-flex p-4"
+                                    style="width: 18rem; background-color: rgb(238, 238, 238); border-radius: 10px;">
+
+                                    <i class="bi bi-geo-alt-fill pr-2"></i>
+                                    <p class="card-text">Mall Taman Palem Parkiran Lt 8, RT.13/RW.10, East
+                                        Cengkareng, Cengkareng, West Jakarta City, Jakarta 11730 <br><br>
+                                        <a class="btn-link" style="color: #f18a15;"
+                                            href="https://goo.gl/maps/hyVgZMTrkLW1i5uh9">See on Map ></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-4 ">
+                                    <h6 class="title-item mb-0">Type</h6>
+                                    <p class="mb-0 opacity-75">Videotron</p>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <h6 class="title-item mb-0">Resolution</h6>
+                                    <p class="mb-0 opacity-75">Widescreen 16:9(1920x1080)</p>
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-8 ">
+                                    <h6 class="title-item mb-0">Size</h6>
+                                    <p class="mb-0 opacity-75 ">40 inch</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- /.container-fluid -->
+        </div>
+    </div>
+</body>
+
+</html>
